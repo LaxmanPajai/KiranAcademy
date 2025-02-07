@@ -10,9 +10,9 @@ public class C {
 	        
 	        System.out.println("Using for loop:");
 	        for (int i = 55; i <= 88; i += 3) {
-	            System.out.print(i + " ");
+	            System.out.print( " ");
 	        }
-	        System.out.println("\n");
+	        System.out.println("");
 
 	      
 	        System.out.println("Using while loop:");
@@ -21,13 +21,13 @@ public class C {
 	            System.out.print(j + " ");
 	            j += 3;
 	        }
-	        System.out.println("\n");
+	        System.out.println("");
 
 	    
 	        System.out.println("Using do-while loop:");
 	        int k = 55;
 	        do {
-	            System.out.print(k + " ");
+	            System.out.print( " ");
 	            k += 3;
 	        } while (k <= 88);
 	        System.out.println();
