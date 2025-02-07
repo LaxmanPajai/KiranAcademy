@@ -7,16 +7,16 @@ public class F {
 	    public static void main(String[] args) {
 	        int count = 0;
 
-	        // Using for loop
+	        
 	        System.out.println("Using for loop:");
 	        for (int i = 12; i <= 45; i++) {
-	            if (i % 2 != 0) {  // Check if number is odd
+	            if (i % 2 != 0) {  
 	                count++;
 	            }
 	        }
-	        System.out.println("Total odd numbers: " + count + "\n");
+	        System.out.println("Total odd numbers: " + count + "");
 
-	        // Using while loop
+	        
 	        System.out.println("Using while loop:");
 	        count = 0;
 	        int j = 12;
@@ -26,9 +26,9 @@ public class F {
 	            }
 	            j++;
 	        }
-	        System.out.println("Total odd numbers: " + count + "\n");
+	        System.out.println("Total odd numbers: " + count + "");
 
-	        // Using do-while loop
+	     
 	        System.out.println("Using do-while loop:");
 	        count = 0;
 	        int k = 12;
