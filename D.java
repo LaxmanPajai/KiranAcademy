@@ -6,23 +6,23 @@ public class D {
 
 	
 	    public static void main(String[] args) {
-	        // Using for loop
+	       
 	        System.out.println("Using for loop:");
 	        for (int i = 11; i >= -33; i -= 4) {
 	            System.out.print(i + " ");
 	        }
-	        System.out.println("\n");
+	        System.out.println("");
 
-	        // Using while loop
+	     
 	        System.out.println("Using while loop:");
 	        int j = 11;
 	        while (j >= -33) {
-	            System.out.print(j + " ");
+	            System.out.print(" ");
 	            j -= 4;
 	        }
-	        System.out.println("\n");
+	        System.out.println("");
 
-	        // Using do-while loop
+	        
 	        System.out.println("Using do-while loop:");
 	        int k = 11;
 	        do {
