@@ -5,14 +5,14 @@ package loops;
 public class A 
 	{
 	    public static void main(String[] args) {
-	        // Using for loop
+	      
 	        System.out.println("Using for loop:");
 	        for (int i = 1; i <= 10; i++) {
 	            System.out.print(i + " ");
 	        }
 	        System.out.println("\n");
 
-	        // Using while loop
+	       
 	        System.out.println("Using while loop:");
 	        int j = 1;
 	        while (j <= 10) {
@@ -21,7 +21,7 @@ public class A
 	        }
 	        System.out.println("\n");
 
-	        // Using do-while loop
+	        
 	        System.out.println("Using do-while loop:");
 	        int k = 1;
 	        do {
